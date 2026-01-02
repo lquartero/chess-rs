@@ -1,0 +1,13 @@
+[package]
+name = "chess-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.15.1"
+bevy_svg = "0.15.1"
+
+[profile.dev]
+incremental = true
+opt-level = 2
+debug = 1
